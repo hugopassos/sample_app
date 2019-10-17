@@ -8,5 +8,4 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select 'title', 'Sign up | Ruby on Rails Tutorial Sample App'
   end
-
 end
