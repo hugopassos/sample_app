@@ -1,0 +1,16 @@
+<h1>List of Users:</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <% @user.each do |u| %>
+      <span>Name: </span>
+      <%= u.name %>
+      <br>
+      <span>Email: </span>
+      <%= u.email %>
+      <br>
+      <%= link_to "Edit", {:action=>"edit", :controller=>"users", :id=>u.id}, class: "btn btn-primary" %>
+      <hr>
+    <% end %>
+  </div>
+</div>
