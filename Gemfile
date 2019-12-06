@@ -21,6 +21,12 @@ gem 'rails', '~> 5.2.3'
 # Encryptor
 gem 'bcrypt', '3.1.12'
 
+gem 'faker', '>= 1.7.3'
+
+gem 'will_paginate', '3.1.7'
+
+gem 'bootstrap-will_paginate', '1.0.0'
+
 gem 'bootstrap-sass', '3.4.1'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
